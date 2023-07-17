@@ -34,7 +34,7 @@
         }
         .menu
         {
-            display: flex;
+             display: flex;
             list-style-type: none;
         }
         .sitename
@@ -43,11 +43,12 @@
             text-transform: uppercase;
             color: white;
         }
-        .menu>li
+        #pageheding>.menu>li>a
         {
             margin-left: 10px;
+            flex-direction: row;
         }
-        .menu>li
+        #pageheding>.menu>li>a
         {
             background-color: white;
             color: #990011;
@@ -77,16 +78,27 @@
             color: white;
             text-transform: uppercase;
         }
-        #pagecontent>article>div>p
+        #pagecontent>article>.h
         {
             padding: 0px 0px 0px 20px;
             text-indent: 50px;
             text-align: justify;
             line-height: 150%;
             word-spacing: 5px;
+            display: flex;
+            align-items: center; 
+            padding: 20px;
+
+            
             
 
         }
+        #pagecontent>article>.h>p
+        {
+            padding: 0px 15px 0px 15px;
+            font-size: 20px;
+        }
+
         #pagecontent>article>div>img
         {
             border-radius: 300px;
@@ -120,7 +132,7 @@
             <header>
                 <h2>Article heading</h2>
             </header>
-            <div>
+            <div class="h">
                 <img src="https://picsum.photos/300" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem facere earum qui corporis veniam illum adipisci neque, vitae distinctio, nulla animi non aut omnis eos ea optio atque quod alias dolores, quos consequatur reprehenderit enim? Quisquam ipsam impedit nostrum, ratione aut id voluptatem iure tempore atque accusamus libero, expedita consectetur?</p>
 
@@ -133,7 +145,7 @@
             <header>
                 <h2>Article heading</h2>
             </header>
-            <div>
+            <div class="h">
                 <img src="https://picsum.photos/300" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem facere earum qui corporis veniam illum adipisci neque, vitae distinctio, nulla animi non aut omnis eos ea optio atque quod alias dolores, quos consequatur reprehenderit enim? Quisquam ipsam impedit nostrum, ratione aut id voluptatem iure tempore atque accusamus libero, expedita consectetur?</p>
 
@@ -146,7 +158,7 @@
             <header>
                 <h2>Article heading</h2>
             </header>
-            <div>
+            <div class="h">
                 <img src="https://picsum.photos/300" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem facere earum qui corporis veniam illum adipisci neque, vitae distinctio, nulla animi non aut omnis eos ea optio atque quod alias dolores, quos consequatur reprehenderit enim? Quisquam ipsam impedit nostrum, ratione aut id voluptatem iure tempore atque accusamus libero, expedita consectetur?</p>
 
@@ -159,7 +171,7 @@
             <header>
                 <h2>Article heading</h2>
             </header>
-            <div>
+            <div class="h">
                 <img src="https://picsum.photos/300" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem facere earum qui corporis veniam illum adipisci neque, vitae distinctio, nulla animi non aut omnis eos ea optio atque quod alias dolores, quos consequatur reprehenderit enim? Quisquam ipsam impedit nostrum, ratione aut id voluptatem iure tempore atque accusamus libero, expedita consectetur?</p>
 

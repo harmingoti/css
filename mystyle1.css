@@ -1,0 +1,31 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+html
+
+{
+    height: 100vu;
+
+}
+body{
+    min-height: 100%;
+    background-image: url(image/earth.png);
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 1px dotted blue;
+    display: inline-block;
+    overflow: scroll;
+    padding: 10PX 10PX;
+    background-color: antiquewhite;
+}
